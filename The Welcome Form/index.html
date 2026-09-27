@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome | Login</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <h1>Welcome back, Zihntechie! 👏</h1>
+      <p class="login-instruction">Please enter your login details.</p>
+      <form id="login-form" novalidate>
+        <div class="login-details">
+          <div class="username-field">
+            <div class="field-row">
+              <label for="field-text" class="field"> Username: </label>
+              <input
+                type="text"
+                id="username"
+                class="field-input"
+                maxlength="20"
+              />
+              <small class="username-error-text"></small>
+            </div>
+          </div>
+
+          <div class="email-field">
+            <div class="field-row">
+              <label for="field-text" class="field"> Email:</label>
+              <input type="email" id="user-email" class="field-input" />
+              <small class="email-error-text"></small>
+            </div>
+          </div>
+
+          <div class="psword-field">
+            <div class="field-row">
+              <label for="field-text" class="field"> Password:</label>
+              <input
+                type="password"
+                id="user-psword"
+                class="field-input"
+                maxlength="10"
+              />
+              <small class="psword-error-text"></small>
+            </div>
+          </div>
+        </div>
+
+        <button id="submit">Login</button>
+        <p class="welcome-msg"></p>
+      </form>
+    </main>
+  </body>
+</html>

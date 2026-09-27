@@ -1,0 +1,29 @@
+body {
+  background-color: white;
+  color: black;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+#switch-btn:hover {
+  background-color: #121212;
+  color: #f5f5f5;
+  transition:
+    background-color 0.8s,
+    color 0.8s;
+}

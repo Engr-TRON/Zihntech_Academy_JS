@@ -1,0 +1,45 @@
+body {
+  margin: 40px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.login-instruction {
+  font-size: 1.5rem;
+}
+
+.login-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.field-row {
+  display: flex;
+  align-items: center;
+}
+
+.field {
+  width: 85px;
+}
+
+.field-input {
+  width: 300px;
+}
+.username-error-text,
+.email-error-text,
+.psword-error-text {
+  display: block;
+  color: red;
+  font-size: 0.85rem;
+  margin-top: 4px;
+}
+
+input.invalid {
+  border: 2px solid red;
+  background-color: #ffe6e6;
+}

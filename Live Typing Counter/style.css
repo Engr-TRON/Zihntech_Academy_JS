@@ -1,0 +1,31 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  padding: 40px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  min-block-size: 10lh;
+  font-size: 1rem;
+  text-align: justify;
+  padding: 8px 8px;
+  box-sizing: border-box;
+}
+
+::placeholder {
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+#char-counter {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: #555;
+}
