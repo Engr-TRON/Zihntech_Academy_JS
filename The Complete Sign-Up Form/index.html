@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-Up Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <form id="signup-form" novalidate>
+      <h2>Create an Account</h2>
+      <input id="full-name" placeholder="Full name" />
+      <input id="email" placeholder="Email" />
+      <input id="age" placeholder="Age" />
+      <input id="password" type="password" placeholder="Password" />
+      <input
+        id="confirm-password"
+        type="password"
+        placeholder="Confirm password"
+      />
+      <label><input id="terms" type="checkbox" />I agree to the terms</label>
+      <button type="submit">Create account</button>
+    </form>
+    <p id="signupMsg"></p>
+  </body>
+</html>
